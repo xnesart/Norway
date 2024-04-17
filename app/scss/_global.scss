@@ -1,0 +1,92 @@
+html,
+body {
+	height: 100%;
+}
+body {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 400;
+	color: $default;
+	overflow-x: hidden;
+	min-width: 300px;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.main {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
+}
+
+.container {
+	max-width: 1230px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.container-fluid {
+	max-width: 1920px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.slick-prev {
+}
+.slick-next {
+}
+.slick-dots {
+	position: absolute;
+	top: 58px;
+	left: -3px;
+	bottom: 55px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	li {
+	}
+	button {
+		font-size: 24px;
+		line-height: 28px;
+		font-family: "Roboto", sans-serif;
+		border: none;
+		background-color: transparent;
+		color: rgba(#fff, 0.5);
+		cursor: pointer;
+		&::before {
+			content: "0";
+		}
+	}
+}
+.slick-dots li:nth-child(n+10) button::before{
+	content: '';
+}
+header .slick-active button {
+	color: #fff;
+}
+// .slick-dots{
+//     display: flex;
+// 	justify-content: center;
+// 	align-items: center;
+// 	li{
+// 		margin: 0 15px;
+// 	}
+// 	button{
+// 		background-color: $title;
+// 		border: none;
+// 		width: 8px;
+// 		height: 8px;
+// 		border-radius: 50%;
+// 		padding: 0;
+// 		font-size: 0;
+// 	}
+// 	li.slick-active{
+// 		button{
+// 			background-color: #ffef35;
+// 		}
+// 	}
+// }

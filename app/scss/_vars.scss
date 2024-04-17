@@ -1,0 +1,14 @@
+%title-font{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+}
+
+$default: #232222;
+$title:  #001E64;
+
+@function max($numbers...) {
+ @return m#{a}x(#{$numbers});
+}
+@function min($numbers...) {
+ @return m#{i}n(#{$numbers});
+}

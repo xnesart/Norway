@@ -1,0 +1,214 @@
+@media (min-width: 1921px) {
+    .header__bg {
+        margin-top: -50px;
+    }
+    .contacts {
+        margin-left: 15%;
+    }
+    .logo {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 30px;
+    }
+}
+@media (max-width: 1125px) {
+    .main-slider__info {
+        margin-left: 50px;
+    }
+    .footer__social-list {
+        margin-right: 10px;
+    }
+    .footer__menu .nav-list {
+        flex-wrap: nowrap;
+        gap: 10px;
+    }
+}
+@media (max-width: 1065px) {
+    .main-slider__name {
+        font-size: 20px;
+    }
+    .slick-current .main-slider__name {
+        font-size: 30px;
+    }
+    .footer-logo {
+        object-fit: contain;
+    }
+}
+
+@media (max-width: 1000px) {
+    .nav {
+        display: block;
+        position: absolute;
+        left: 20%;
+        right: 20%;
+        background-color: #fff;
+        z-index: 89;
+        top: -450px;
+        transition: 0.3s all;
+    }
+    .nav--active {
+        top: 50px;
+    }
+    .nav__button {
+        display: block;
+        margin-left: auto;
+        margin-right: 40px;
+        z-index: 90;
+    }
+    .nav__link {
+        display: block;
+        padding: 20px 0;
+        text-align: center;
+        &:hover {
+            border-bottom: none;
+        }
+    }
+    .header__phone {
+        margin-top: 19px;
+    }
+    .main-slider__info {
+        margin-left: 20px;
+    }
+    .footer__menu .nav-list {
+        display: none;
+    }
+}
+@media (max-width: 970px) {
+    .main-slider__box {
+        display: block;
+    }
+    .main-slider__title {
+        display: flex;
+        width: 100%;
+        text-align: center;
+        flex-direction: row;
+        margin-bottom: 50px;
+    }
+    .main-slider__name {
+        margin-right: 20px;
+    }
+    .main-slider__info {
+        margin: 0 auto;
+        padding-bottom: 0;
+    }
+    .main-slider__description {
+        max-width: 100%;
+    }
+    .slick-current .main-slider__name {
+        font-size: 20px;
+    }
+    .main-slider .slick-dots {
+        left: 0;
+        right: 0;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .main-slider .slick-dots button {
+        width: 10px;
+        height: 10px;
+        font-size: 0;
+        padding: 0;
+        border-radius: 50%;
+        background-color: #c4c4c4;
+        margin: 0 5px;
+    }
+    .main-slider .slick-dots .slick-active button {
+        background-color: $title;
+    }
+    .main-benefits {
+        flex-wrap: wrap;
+    }
+    .main-benefits-bg {
+    }
+    .main-benefits {
+        padding-top: 200px;
+    }
+    .main-benefits__item {
+        margin: 50px auto 30px;
+    }
+}
+@media (max-width: 810px) {
+    .header-box__title {
+        margin-left: 0;
+        font-size: 50px;
+        line-height: 56px;
+    }
+}
+@media (max-width: 760px) {
+    .about__inner {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0;
+    }
+    .about__box {
+        margin: 0 auto;
+    }
+}
+@media (max-width: 560px) {
+    .main-slider__info-block {
+        margin-left: 10px;
+    }
+}
+@media (max-width: 545px) {
+    .header-box {
+        margin-left: 0;
+    }
+    .main-slider__order {
+        padding: 12px 40px;
+    }
+    .main-benefits {
+        display: none;
+    }
+    .contacts {
+        margin-top: 50px;
+        background-image: none;
+    }
+    .contacts__info {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 470px) {
+    .header-box__title {
+        margin-left: 0;
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .header-box__slider-info {
+        padding-left: 50px;
+    }
+    .nav__button {
+        margin-right: 15px;
+    }
+    .header__phone {
+        margin-right: 10px;
+    }
+    .header-box__btn {
+        margin-left: 50px;
+        padding: 14px 40px;
+    }
+    .main-slider__info-block {
+        margin-left: 0px;
+    }
+    .blockquote__title {
+        margin-top: 10px;
+    }
+}
+@media (max-width: 350px) {
+    .slick-dots {
+        left: -15px;
+    }
+    .header-box__slider-prev,
+    .header-box__slider-next {
+        left: -13px;
+    }
+    .header-box__slider-info {
+        padding-left: 30px;
+    }
+    .header-box__btn {
+        margin-left: 30px;
+    }
+    .nav {
+        left: 5%;
+        right: 5%;
+    }
+}
